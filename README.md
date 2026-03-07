@@ -1,6 +1,7 @@
 # UMD Course Notes/Reviews
 
 - [CMSC250](./CMSC250/README.md)
+- [BMGT340](./BMGT340/README.md)
 
 # Documentation 
 
