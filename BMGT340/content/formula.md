@@ -118,7 +118,7 @@ Also you might have noticed that in the $EAR$ equation the $(1+r)^m$ looks simil
 - Since $m$ is the compounding period(s) per year, $m=1$ if compounded yearly, $m=2$ if compounded semiannually, $m=4$ if compounded quarterly, $m=12$ if compounded monthly, $m=52$ if compounded weekly, $m=365$ if compounded daily (assuming not leap year), etc...
 - Note: We can use either the $EAR$ or the $r$ defined above as the $r$ that is found in the TVM formula in which case we need to adjust $N$ depending on which one we use.
   - For example, if $m = 12$ and $APR = 0.06$ then $r = 0.005$ and $EAR = 0.061678$ (this is rounded)
-  - You would see that $(1+r)^{12}$ gives you the same answer as $(1+EAR)$, this is because the $EAR$ is already compounded over 12 months where as $r$ is just the simple interest rate. 
+  - You would see that $(1+r)^{12}$ gives you the same answer as $(1+EAR)$, this is because the $EAR$ is already compounded over 12 months where as $r$ is just the simple interest rate for one month.
 
 
 
