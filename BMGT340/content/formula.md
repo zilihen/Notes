@@ -66,11 +66,11 @@ $$PV =\dfrac{C}{r}$$
 > 
 > Suppose we want the cash flow of every $k$ year, starting $k$ year(s) from now. Then,
 > 
-> $$PV = \dfrac{C}{(1+r)^k} + \dfrac{C}{(1+r)^{2k}} + \dfrac{C}{(1+r)^{3k}} + ...$$
-> $$(1+r)^kPV = C + \dfrac{C}{(1+r)^{k}} + \dfrac{C}{(1+r)^{2k}} + ...$$
-> $$(1+r)^kPV = C + PV$$
-> $$(1+r)^kPV - PV = C$$
-> $$PV((1+r)^k - 1) = C$$
+> $$PV = \dfrac{C}{(1+r)^k} + \dfrac{C}{(1+r)^{2k}} + \dfrac{C}{(1+r)^{3k}} + ...$$ <br>
+> $$(1+r)^kPV = C + \dfrac{C}{(1+r)^{k}} + \dfrac{C}{(1+r)^{2k}} + ...$$ <br>
+> $$(1+r)^kPV = C + PV$$ <br>
+> $$(1+r)^kPV - PV = C$$ <br>
+> $$PV((1+r)^k - 1) = C$$ <br>
 > $$PV = \dfrac{C}{(1+r)^k - 1}$$
 > 
 > </details>
