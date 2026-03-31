@@ -296,6 +296,7 @@ Lets consider another example:
 | P2         | $q \to r$  |
 | P3         | $r$        |
 | Conclusion | $p \vee q$ |
+
 With a truth table
 
 |  $p$  |  $q$  | (P3)<br>$r$ | (P1)<br>$p \to r$ | (P2)<br>$q \to r$ | (conclusion)<br> $p \vee q$ |
