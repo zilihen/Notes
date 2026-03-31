@@ -255,6 +255,7 @@ Using a truth table we have
 |   1   |   0   |           0           |
 |   0   |   1   |           0           |
 |   0   |   0   |           1           |
+
 ## Arguments
 By definition, an argument is a conjecture that states "if you make certain assumptions, then a particular statement must logically follow." - Fawzi 
 - The assumptions are called **premises**.
@@ -273,6 +274,7 @@ In order for an argument to be valid, every interpretation in which all the prem
 | P2         | $q \to r$                               |     |
 | P3         | $\sim p$                                |     |
 | Conclusion | $r$                                     |     |
+
 Is the argument valid? Lets find out using a truth table
 
 |  $p$  |  $q$  | (conclusion) </br> $r$ | (P3) </br> $\sim p$ | (P1)</br> $p \vee q$ | (P2)</br> $q \to r$ |
