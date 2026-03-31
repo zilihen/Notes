@@ -80,7 +80,7 @@ When we are given an English statement, we break the statement into parts and as
 We will translate the given statements into "logic": 
 - "Tommy likes oranges and apples"
   - Let p = `Tommy likes oranges` and q = `Tommy likes apples`
-    	- $p \wedge q$
+    - $p \wedge q$
 - "Fruits are healthy but snacks are not"
   - Let p = `fruits are healthy` and q = `snacks are healthy` 
 	- $p \wedge \sim q$
