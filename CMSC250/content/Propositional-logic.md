@@ -80,7 +80,7 @@ When we are given an English statement, we break the statement into parts and as
 We will translate the given statements into "logic": 
 - "Tommy likes oranges and apples"
   - Let p = `Tommy likes oranges` and q = `Tommy likes apples`
-    	- $p \wedge q$
+    - $p \wedge q$
 - "Fruits are healthy but snacks are not"
   - Let p = `fruits are healthy` and q = `snacks are healthy` 
 	- $p \wedge \sim q$
@@ -255,6 +255,7 @@ Using a truth table we have
 |   1   |   0   |           0           |
 |   0   |   1   |           0           |
 |   0   |   0   |           1           |
+
 ## Arguments
 By definition, an argument is a conjecture that states "if you make certain assumptions, then a particular statement must logically follow." - Fawzi 
 - The assumptions are called **premises**.
@@ -273,6 +274,7 @@ In order for an argument to be valid, every interpretation in which all the prem
 | P2         | $q \to r$                               |     |
 | P3         | $\sim p$                                |     |
 | Conclusion | $r$                                     |     |
+
 Is the argument valid? Lets find out using a truth table
 
 |  $p$  |  $q$  | (conclusion) </br> $r$ | (P3) </br> $\sim p$ | (P1)</br> $p \vee q$ | (P2)</br> $q \to r$ |
@@ -296,6 +298,7 @@ Lets consider another example:
 | P2         | $q \to r$  |
 | P3         | $r$        |
 | Conclusion | $p \vee q$ |
+
 With a truth table
 
 |  $p$  |  $q$  | (P3)<br>$r$ | (P1)<br>$p \to r$ | (P2)<br>$q \to r$ | (conclusion)<br> $p \vee q$ |
