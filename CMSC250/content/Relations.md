@@ -17,7 +17,7 @@ Can be extended to more than two sets
 - Can involve any number of sets but the most common relation is a binary relation which involves two sets
 
 > [!note]
-> Relation is commonly denoted as $R$ but here I will be denoting it as $B$ (until a certain section which would be noted) so it is not to be confused with real numbers as Github markdown doesn't render real number correct due to unsupported font.
+> Relation is commonly denoted as $R$ but here I will be denoting it as $B$ (until a certain section which would be noted) so it is not to be confused with real numbers as certain browser doesn't support latex font correctly. 
 
 ## Binary Relation
 
@@ -58,10 +58,16 @@ Another notation for relation is $a\mathrel B b$ which reads "$a$ relates to $b$
 - $(a, b) \in B \leftrightarrow P(a, b) \leftrightarrow a \mathrel B b$
 
 Non-intuitive examples of binary relation: 
-![example](../assets/relation-examples.png)
+- $\lt$ is a binary relation  defined on $\mathbb{R} \times \mathbb{R}$ or $\mathbb{Z} \times \mathbb{Z}$, etc.
+	- Meaning $\lt$ is actually a set in this context.
+- $=$ is a binary relation defined over any domain
+	- $=$ is a set
 
- 
 
+> [!tip]
+> Here $\mathbb{R}$ is real numbers and $\mathbb{Z}$ is integers in case for those who don't have supported font.
+
+>[!note]
 > Plotting points on a graph is another way to show binary relations.
 
 ## Function as Binary Relation

@@ -99,7 +99,11 @@ A binary relation is a partial order if and only if it is:
 
 
 Common examples are:
-![example](../assets/Relation-concepts-example.png)
+1. $\le$ over $\mathbb{Z}$ is also a "total order" (covered later)
+2. Divisibility over $\mathbb{N}^{+}$ where $\{(a, b) \in \mathbb{N}^{+} \times \mathbb{N}^{+} : a|b\}$
+
+> [!tip]
+> $\mathbb{Z}$ is the integer set, and $\mathbb{N}^{+}$ is all the positive natural numbers; 0 is not positive but it is being included in the natural numbers for the sake of being a CS course, so $\mathbb{N}^{+}$ is to say that we are not including 0 since you can't divide by 0. 
 
 
 
